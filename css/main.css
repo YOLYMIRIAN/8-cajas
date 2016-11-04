@@ -1,0 +1,31 @@
+.caja{
+	border: 1px solid black;
+	background: grey;
+	width: 120px;
+	height: 120px;
+}
+.contenedor{
+
+	border: 1px solid black;
+	background: grey;
+	display: inline-block;
+	padding: 5px;
+	padding-bottom: 3px;
+}
+.contenedor .caja{
+	display: inline-block;
+	margin:  5px 0 5px 5px;
+	line-height: 80px;
+}
+.inline{
+	display: inline-block;
+	margin-top: 10px;
+}
+body > .caja{
+	margin: 5px;
+	margin-left: 0;
+
+}
+body > .caja :last-child{
+	margin-top : -3px;
+}
