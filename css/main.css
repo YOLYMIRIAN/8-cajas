@@ -1,31 +1,46 @@
-.caja{
-	border: 1px solid black;
-	background: grey;
-	width: 120px;
-	height: 120px;
-}
+.caja1{
+    border: 1.5px solid black;
+    background: #808080;
+    width: 100px;
+    height: 100px;
+    }
 .contenedor{
+    margin-top: 5px;
+    border: 1.5px solid black;
+    background: #808080;
+    width: 348px;
+    height: 125px;
+    position: relative;
+    }
 
-	border: 1px solid black;
-	background: grey;
-	display: inline-block;
-	padding: 5px;
-	padding-bottom: 3px;
-}
-.contenedor .caja{
-	display: inline-block;
-	margin:  5px 0 5px 5px;
-	line-height: 80px;
-}
-.inline{
-	display: inline-block;
-	margin-top: 10px;
-}
-body > .caja{
-	margin: 5px;
-	margin-left: 0;
+.caja2{
+    border: 1.5px solid black;
+    background: #808080;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left:10px;
+    float: left;
+    }
 
-}
-body > .caja :last-child{
-	margin-top : -3px;
-}
+.caja3 {
+    border: 1.5px solid black;
+    background: #808080;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left:1px;
+    margin-right: 10px;
+    float: left;
+    }
+
+.caja4{
+    border: 1.5px solid black;
+    background: #808080;
+    width: 100px;
+    height: 100px;
+    margin-top: 125px;
+
+    }
